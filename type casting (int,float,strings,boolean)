@@ -1,0 +1,43 @@
+#~integer example
+num1=100
+print(type(num1))
+#To convert integer to float
+print(float(num1))
+#To convert integer to strings
+print(str(num1))
+#To convert integer to boolean
+print(bool(num1))
+
+#float example
+num2= 200.01
+print(type(num2))
+#to convert float to integer
+print(int(num2))
+#to convert float to string
+print(str(num2))
+#to convert float to boolean
+print(bool(num2))
+
+# string example
+number="12345"
+print(type(number))
+#to convert string to int
+print(int(number))
+#to convert string to float
+print(float(number))
+#To convert string to boolean
+print(bool(number))
+
+
+#boolean example
+value1=True
+print(type(value1))
+#to convert boolean to string
+print(str(value1))
+#To convert boolean to int
+print(int(value1))
+#To convert boolean to float
+print(float(value1))
+
+
+

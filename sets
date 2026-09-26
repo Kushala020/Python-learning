@@ -1,0 +1,39 @@
+# sets=curl brackets no indexing,slicing,concatenation,not allow same element multiple times
+# sets are mutable cuz we can add,remove
+# frozen sets are immutable
+
+money={"thousand","hundreds"}
+print(type(money))
+print(money)
+
+print(len(money))
+
+#functions
+#1 add()
+money.add("zeroes")
+print(money)
+#2 remove()-it wl give error if element is not there
+money.remove("zeroes")
+print(money)
+#3 discard()-will not give error if elemnt is not there
+money.discard("bites")
+print(money)
+
+#operations on sets
+#intersection
+s1={"impana","kushi"}
+s2={"impana","kushala"}
+s3=s1&s2
+print(s3)
+
+#union
+s3=s1|s2 
+print(s3)
+
+#difference
+s3=s2-s1
+print(s3)
+
+#frozen sets
+Fs1=frozenset({10,20})
+print(type(Fs1))

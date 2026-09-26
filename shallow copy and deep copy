@@ -1,0 +1,21 @@
+#shallow copy
+import copy
+l1=[10,20,[30,40]]
+l2 = copy.copy(l1)
+l1[2][0]=50
+print(l1)
+print(l2)
+
+l1=[10,10,2]
+l2=copy.copy(l1)
+print(l2)
+l1[0]=100
+print(l1)
+
+#deep copy
+l1=[1,2.5,[110,209]]
+l2=copy.deepcopy(l1)
+l1[0]=5
+l1[2][0]=500
+print(l1)
+print(l2)

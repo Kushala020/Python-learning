@@ -1,0 +1,21 @@
+t1=("john","banana")
+print(type(t1))
+
+
+#lists to tupule
+l1=[1,2,3]
+print(l1,type(l1))
+t1=tuple(l1)
+print(t1,type(t1))
+
+#tuple to lists
+t2=("appa","amma")
+print(t2,type(t2))
+l2=list(t2)
+print(l2,type(l2))
+
+#functions
+#index in tuple-consider 1st index only
+t3=(1,2,3,4,4)
+print(t3.index(4))
+

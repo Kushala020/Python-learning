@@ -1,0 +1,51 @@
+names=['impana','kushi']
+print(type(names))
+
+#functions of lists
+#1 append function-adds only one item at the end of lists.
+names=['impana','kushi']
+names.append('preksha')
+print(names)
+
+#2 insert function-in between 
+names.insert(1,'geetha')
+print(names)
+
+#3 extend function-adds 2 items to list
+names.extend(['raghu','heman'])
+print(names)
+
+#4 remove()
+names.remove('heman')
+print(names)
+
+#5 pop()-remove based on indexing
+names.pop(1)
+print(names)
+names.pop()#last wl be deleted
+print(names)
+
+#6 reverse-elements wl be reversed
+names.reverse()
+print(names)
+
+#7 sort()-gives lists in ascending order.
+numbers=[9,8,7,6,5,8,8]
+numbers.sort()
+print(numbers)
+
+# in descending
+numbers.sort(reverse=True)
+print(numbers)
+
+#8 count()
+print(numbers.count(8))
+
+#9 minimum()
+print(min(numbers))
+
+#10 maximum
+print(max(numbers))
+
+#11 sum()
+print(sum(numbers))

@@ -1,0 +1,16 @@
+# dictionaries-comma inserted keyvalue pair 
+#no indexing
+
+market={"vegetable":1,"fruits":10}
+print(type(market))
+print(market['fruits'])
+market['eggs']=210
+print(market)
+
+#functions
+#1 get()-to fetch values
+print(market.get("vegetable"))
+#2 keys()-to fetch keys
+print(market.keys())
+#3 items()
+print(market.items())

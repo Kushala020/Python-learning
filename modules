@@ -1,0 +1,17 @@
+#import we need to use
+#1 random module()-return random float between 0.0 and 1.0
+import random
+print(random.random())
+
+#2 randint(a,b)-return random integer between a and b
+print(random.randint(5,9))
+
+#3 choice()-returns random item from a sequence
+nums=(1,2,3,4)
+print(random.choice(nums))
+
+#4 shuffle()-return elements in shuffle order(only list sequence)
+names=["imp","kushi","preksha"]
+random.shuffle(names)
+print(names)
+
